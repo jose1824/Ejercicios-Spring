@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Se definen los valores del constructor -->
+
+	<bean id="persona" class="com.marijesus.beans.Persona" >
+		<constructor-arg index="0" value="1"></constructor-arg>
+		<constructor-arg index="2" value="Hermosa"></constructor-arg>
+		<constructor-arg index="1" value="Mari"></constructor-arg>
+	</bean>
+
+</beans>
