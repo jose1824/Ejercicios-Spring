@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;BeansAnidados/src/main/java/com.marijesus.beans&apos;&#x0D;&#x0A;- Original project: &apos;inyeccionObjetos&apos;&#x0D;&#x0A;- Destination element: &apos;BeansAnidados/src/main/java/com.marijesus.beans&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.marijesus.beans.Ciudad.java&#x0D;&#x0A;     com.marijesus.beans.Pais.java&#x0D;&#x0A;     com.marijesus.beans.Persona.java" description="Copy compilation units" destination="=BeansAnidados/src\/main\/java&lt;com.marijesus.beans" element1="/src\/main\/java&lt;com.marijesus.beans{Ciudad.java" element2="/src\/main\/java&lt;com.marijesus.beans{Pais.java" element3="/src\/main\/java&lt;com.marijesus.beans{Persona.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1472010989803" units="3" version="1.0"/>
+</session>

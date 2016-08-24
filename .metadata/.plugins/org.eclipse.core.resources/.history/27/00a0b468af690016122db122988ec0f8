@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="persona" class="com.marijesus.beans.Persona">
+	<!-- Se hace una referencia al id del otro bean  de abajo -->
+		<property name="pais" ref="pais"></property>
+		<property name="id" value="1" />
+		<property name="nombre" value="Mari" />
+		<property name="apodo" value="Hermosa" />
+	</bean>
+	
+	<bean id="pais" class="com.marijesus.beans.Pais">
+		<property name="nombre" value="Mexico"></property>
+		<property name="ciudad" ref="ciudad" />
+	</bean>
+	
+	<bean id="ciudad" class="com.marijesus.beans.Ciudad">
+		<property name="nombre" value="Veracruz" />
+	</bean>
+
+</beans>
